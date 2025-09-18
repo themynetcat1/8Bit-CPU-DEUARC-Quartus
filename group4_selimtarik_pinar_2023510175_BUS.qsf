@@ -1,0 +1,122 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 10:22:46  April 11, 2025
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		group4_selimtarik_pinar_2023510175_BUS_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C16F484C6
+set_global_assignment -name TOP_LEVEL_ENTITY group4_selimtarik_pinar_2023510175_BUS
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:22:46  APRIL 11, 2025"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name BDF_FILE Group4_selimtarik_pinar_2023510175_ALU.bdf
+set_global_assignment -name QIP_FILE R0.qip
+set_global_assignment -name QIP_FILE R1.qip
+set_global_assignment -name QIP_FILE R2.qip
+set_global_assignment -name QIP_FILE RIO.qip
+set_global_assignment -name BDF_FILE group4_selimtarik_pinar_2023510175_BUS.bdf
+set_global_assignment -name QIP_FILE RI.qip
+set_global_assignment -name QIP_FILE RO.qip
+set_global_assignment -name QIP_FILE DECODER.qip
+set_global_assignment -name HEX_FILE ramhex.hex
+set_global_assignment -name HEX_FILE datamemoryhex.hex
+set_global_assignment -name HEX_FILE codememoryhex.hex
+set_global_assignment -name BDF_FILE Common_Bus_System_2023510155_Group4.bdf
+set_global_assignment -name QIP_FILE Program_Counter.qip
+set_global_assignment -name QIP_FILE Instruction_Register.qip
+set_global_assignment -name QIP_FILE ../poyrazbatu_irmak_2023510155_Lab3_Bus/MUXA.qip
+set_global_assignment -name QIP_FILE ../poyrazbatu_irmak_2023510155_Lab3_Bus/MUXSEL.qip
+set_global_assignment -name QIP_FILE ../poyrazbatu_irmak_2023510155_Memory_HM2/ALUMUX1.qip
+set_global_assignment -name QIP_FILE ../poyrazbatu_irmak_2023510155_Memory_HM2/ALUMUX2.qip
+set_global_assignment -name QIP_FILE ../poyrazbatu_irmak_2023510155_Memory_HM2/SELMUX.qip
+set_global_assignment -name SOURCE_FILE db/group4_selimtarik_pinar_2023510175_BUS.cmp.rdb
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name QIP_FILE MUXA0.qip
+set_global_assignment -name QIP_FILE MUXB.qip
+set_global_assignment -name QIP_FILE data_pointer.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE group4_selimtarik_pinar_2023510175_BUS_waveform.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform2.vwf
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
+set_global_assignment -name QIP_FILE sequence_counter.qip
+set_global_assignment -name QIP_FILE sequence_decoder.qip
+set_global_assignment -name BDF_FILE Block1.bdf
+set_global_assignment -name QIP_FILE opcode_decoder.qip
+set_global_assignment -name BDF_FILE ControlUnit.bdf
+set_global_assignment -name QIP_FILE Q.qip
+set_global_assignment -name QIP_FILE opcodeR.qip
+set_global_assignment -name QIP_FILE RdR.qip
+set_global_assignment -name QIP_FILE S1S2R.qip
+set_global_assignment -name QIP_FILE lpm_mux6.qip
+set_global_assignment -name QIP_FILE lpm_mux7.qip
+set_global_assignment -name QIP_FILE lpm_mux8.qip
+set_global_assignment -name QIP_FILE output_files/lpm_constant0.qip
+set_global_assignment -name QIP_FILE output_files/lpm_constant1.qip
+set_global_assignment -name QIP_FILE output_files/lpm_constant2.qip
+set_global_assignment -name BDF_FILE Deneme.bdf
+set_global_assignment -name QIP_FILE lpm_constant2.qip
+set_global_assignment -name QIP_FILE lpm_constant3.qip
+set_global_assignment -name QIP_FILE lpm_constant4.qip
+set_global_assignment -name QIP_FILE lpm_constant5.qip
+set_global_assignment -name QIP_FILE lpm_constant6.qip
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name QIP_FILE stackPointer.qip
+set_global_assignment -name QIP_FILE lpm_mux9.qip
+set_global_assignment -name BDF_FILE group4_poyrazbatu_irmak_2023510155_ControlUnit.bdf
+set_global_assignment -name QIP_FILE lpm_add_sub2.qip
+set_global_assignment -name QIP_FILE lpm_add_sub3.qip
+set_global_assignment -name QIP_FILE lpm_constant9.qip
+set_global_assignment -name QIP_FILE lpm_constant31.qip
+set_global_assignment -name QIP_FILE lpm_decode2.qip
+set_global_assignment -name QIP_FILE lpm_constant32.qip
+set_global_assignment -name QIP_FILE lpm_counter0.qip
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/altera/13.0sp1/group4_selimtarik_pinar_2023510175_BUS/Waveform2.vwf"
